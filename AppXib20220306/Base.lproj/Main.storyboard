@@ -28,6 +28,9 @@
                             <constraint firstItem="eNr-Zh-Q12" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="v9r-kL-hCY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="theView2" destination="eNr-Zh-Q12" id="97z-ix-prY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
