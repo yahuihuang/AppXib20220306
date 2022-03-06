@@ -19,16 +19,29 @@
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eNr-Zh-Q12" customClass="MyView" customModule="AppXib20220306" customModuleProvider="target">
                                 <rect key="frame" x="20" y="734" width="374" height="128"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6d-nr-qF5">
+                                <rect key="frame" x="20" y="194" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eNr-Zh-Q12" secondAttribute="trailing" constant="20" id="E5D-PR-zKg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X6d-nr-qF5" secondAttribute="trailing" constant="20" id="JLx-Lf-Hj8"/>
                             <constraint firstItem="eNr-Zh-Q12" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iPm-1O-Val"/>
+                            <constraint firstItem="X6d-nr-qF5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qGi-dv-XBP"/>
                             <constraint firstItem="eNr-Zh-Q12" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="v9r-kL-hCY"/>
+                            <constraint firstItem="X6d-nr-qF5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="yvL-tT-9XT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="myButton" destination="X6d-nr-qF5" id="nxI-HJ-xEm"/>
                         <outlet property="theView2" destination="eNr-Zh-Q12" id="97z-ix-prY"/>
                     </connections>
                 </viewController>

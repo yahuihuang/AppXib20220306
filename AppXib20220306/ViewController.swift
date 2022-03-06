@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var myButton: UIButton!
     @IBOutlet weak var theView2: MyView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +18,20 @@ class ViewController: UIViewController {
         self.view.addSubview(theView)
         
         theView2.theShadow()
+        
+        // 網路狀態
+        print(getNetworkStatus())
+        let status: String = getNetworkStatus() == true ? "Connected" : "Disconnect"
+        myButton.setTitle(status, for: .normal)
     }
 
+    func getNetworkStatus() -> Bool {
+        if Reachability(hostName: "www.apple.com")?.currentReachabilityStatus().rawValue == 0 {
+            return false
+        } else {
+            return true
+        }
+    }
 
 }
 
