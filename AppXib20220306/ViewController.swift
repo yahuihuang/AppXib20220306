@@ -8,11 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let theView = MyView(frame: CGRect(x: 10, y: 40, width: self.view.bounds.width - 20, height: 100))
+        theView.theShadow()
         self.view.addSubview(theView)
     }
 

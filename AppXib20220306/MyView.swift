@@ -34,4 +34,12 @@ class MyView: UIView {
         let theView = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         return theView
     }
+    
+    func theShadow() {
+        self.clipsToBounds = false
+        self.layer.shadowRadius = 20         //陰影
+        self.layer.shadowOpacity = 0.6;
+        self.layer.shadowColor = UIColor.systemPink.cgColor
+        self.layer.shadowOffset = CGSize(width: 10, height: 10)
+    }
 }
