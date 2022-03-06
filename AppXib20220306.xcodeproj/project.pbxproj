@@ -16,6 +16,8 @@
 		65E1E17627D44A7F0079D30C /* AppXib20220306Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E17527D44A7F0079D30C /* AppXib20220306Tests.swift */; };
 		65E1E18027D44A7F0079D30C /* AppXib20220306UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E17F27D44A7F0079D30C /* AppXib20220306UITests.swift */; };
 		65E1E18227D44A7F0079D30C /* AppXib20220306UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E18127D44A7F0079D30C /* AppXib20220306UITestsLaunchTests.swift */; };
+		65E1E19127D44AE00079D30C /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E19027D44AE00079D30C /* MyView.swift */; };
+		65E1E19327D44B270079D30C /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E1E19227D44B270079D30C /* MyView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		65E1E17B27D44A7F0079D30C /* AppXib20220306UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppXib20220306UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E1E17F27D44A7F0079D30C /* AppXib20220306UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppXib20220306UITests.swift; sourceTree = "<group>"; };
 		65E1E18127D44A7F0079D30C /* AppXib20220306UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppXib20220306UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65E1E19027D44AE00079D30C /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		65E1E19227D44B270079D30C /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				65E1E16727D44A7F0079D30C /* Assets.xcassets */,
 				65E1E16927D44A7F0079D30C /* LaunchScreen.storyboard */,
 				65E1E16C27D44A7F0079D30C /* Info.plist */,
+				65E1E19027D44AE00079D30C /* MyView.swift */,
+				65E1E19227D44B270079D30C /* MyView.xib */,
 			);
 			path = AppXib20220306;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E1E19327D44B270079D30C /* MyView.xib in Resources */,
 				65E1E16B27D44A7F0079D30C /* LaunchScreen.storyboard in Resources */,
 				65E1E16827D44A7F0079D30C /* Assets.xcassets in Resources */,
 				65E1E16627D44A7D0079D30C /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E1E19127D44AE00079D30C /* MyView.swift in Sources */,
 				65E1E16327D44A7D0079D30C /* ViewController.swift in Sources */,
 				65E1E15F27D44A7D0079D30C /* AppDelegate.swift in Sources */,
 				65E1E16127D44A7D0079D30C /* SceneDelegate.swift in Sources */,
