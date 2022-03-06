@@ -13,14 +13,31 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqj-Xl-wGl">
+                    <rect key="frame" x="20" y="64" width="374" height="778"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray" title="測試Button">
+                        <backgroundConfiguration key="background">
+                            <color key="backgroundColor" red="1" green="0.91940291090000004" blue="0.1069808545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </backgroundConfiguration>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" systemColor="systemGray4Color"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Nqj-Xl-wGl" secondAttribute="bottom" constant="20" id="6BH-G5-5qj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Nqj-Xl-wGl" secondAttribute="trailing" constant="20" id="jzR-13-d0r"/>
+                <constraint firstItem="Nqj-Xl-wGl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="qkw-SN-gO5"/>
+                <constraint firstItem="Nqj-Xl-wGl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="rbV-hW-08j"/>
+            </constraints>
             <point key="canvasLocation" x="-113" y="43"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
