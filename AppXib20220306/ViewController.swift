@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         
         let theView = MyView(frame: CGRect(x: 10, y: 40, width: self.view.bounds.width - 20, height: 100))
         self.view.addSubview(theView)
-        
     }
 
 
